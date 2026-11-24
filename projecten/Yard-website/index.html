@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="hamburger-menu"> <!-- Add this div for the menu -->
+            <nav>
+                <ul>
+                    <li><a href="#">Over ons</a></li>
+                    <li><a href="#">Cases</a></li>
+                    <li><a href="#">Inspiratie</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+      
+
+        <div class="left-section">
+
+
+            <nav class="navbar-left">
+                <ul>
+                    <li class="left-item"><a href="#">Over ons</a></li>
+                    <li class="left-item"><a href="#">Cases</a></li>
+                </ul>
+            </nav>
+
+
+
+            <div class="left">
+                <h2 style="color:rgba(8, 171, 196, 0.73);">Dear Yard,</h2>
+                <p>With great enthusiasm I would like to introduce myself to you as a possible candidate for a position within your company. My name is Eugenie Kloren, I am 29 years old and live in Vinkeveen together with my dog. I am currently studying software development and will soon graduate.</p>
+                <p>As a cheerful, spontaneous and inquisitive person who does not shy away from a challenge, I am convinced that I have a lot to offer in a dynamic work environment. I am independent and can handle work pressure well, but also like to work in a team.
+                My experience as a Software Developer within my education has taught me to work efficiently and carefully in different situations, which I would like to further expand and apply in a new position.</p>
+                <p>The versatility of an open position appeals to me enormously. I am looking for a varied job in which I can use both my organizational skills and my creativity. I am convinced that my experience and personal qualities can be a valuable addition to your team.</p>
+                <p>I would like to further explain my motivation and background in a personal interview. I look forward to sharing my knowledge and enthusiasm with you.</p>
+                <p>Kind regards,</p>
+                <p>Eugenie Kloren</p>
+
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+
+            
+
+        </div>
+        <div class="right-section">
+            <nav class="navbar-right">
+                <ul>
+                    <li class="right-item"><a href="#">Inspiratie</a></li>
+                    <li class="right-item"><a href="#">Events</a></li>
+                </ul>
+            </nav>
+            <h2>Welcome to My Yard Application</h2>
+            <img src="/image/IMG2007.png" alt="" class="image">
+        </div>
+
+        <div class="logo">
+            <img src="/image/yardlogo.png" alt="Yard Logo" class="logo">
+        </div>
+        
+      
+
+    </div>
+    </div>
+
+    <script>
+       function toggleMenu() {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    hamburgerMenu.classList.toggle('visible');
+}
+    </script>
+
+
+
+
+</body>
+
+</html>
