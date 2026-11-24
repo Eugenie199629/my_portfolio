@@ -1,0 +1,218 @@
+/* Algemene body instellingen */
+
+@font-face {
+    font-family: 'lettertype';
+    src: url(../fonts/VT323-Regular.ttf);
+}
+
+body{
+    background-image: url(../images/background.png);
+    
+    height: 100vh;
+       
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #201E1E;
+    opacity: 0.9;
+    height: 13%;
+    padding: 20px 40px;
+}
+
+.logofoto {
+    width: 130px;
+}
+
+.logonaam {
+    font-family: 'lettertype';
+    color: white;
+    margin-left: 12%;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.logofoto {
+    width: 130px;
+}
+
+.logonaam {
+    font-family: lettertype;
+    color: white;
+    margin-left: 12%;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+
+
+/* Styling voor tekst in de knoppen */
+.imgbuttons .text-in-button1,
+.imgbuttons .text-in-button2,
+.imgbuttons .text-in-button3,
+.imgbuttons .text-in-button4,
+.imgbuttons .text-in-button5 {
+    font-size: 15px;
+    /*lettergrootte */
+}
+
+/* Hamburger menu stijlen */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+}
+.imgbuttons {
+    position: relative;
+}
+
+
+/* Styling voor het hamburger-menu */
+.buttons {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons.open {
+    display: flex;
+    /* Toon het menu als open */
+}
+
+.buttons img.button {
+    margin: 10px 0;
+}
+
+.button {
+    width: 8vw;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text-in-button {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 15px;
+    color: white;
+}
+
+.text-in-button1 {
+    position: absolute;
+    top: 39%;
+    left: 43%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 100px;
+    color: white;
+}
+
+.text-in-button2 {
+    position: absolute;
+    top: 39%;
+    left: 32%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 18px;
+    color: white;
+}
+
+.text-in-button3 {
+    position: absolute;
+    top: 39%;
+    left: 43%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 20px;
+    color: white;
+}
+
+.text-in-button4 {
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 18px;
+    color: white;
+}
+
+.text-in-button5 {
+    position: absolute;
+    top: 39%;
+    left: 39%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 20px;
+    color: white;
+}
+
+.text-in-button-aboutgame {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 0px;
+    color: white;
+}
+
+
+
+/* New Styles */
+.gif-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.gif, .side-gif {
+    width: 400px; /* Original size */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth resizing */
+}
+
+
+.text-box {
+    background-color: rgba(32, 30, 30, 0.9);
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.text-box > p {
+    font-family: lettertype;
+}
+.clickable-image {
+    width: 400px; /* Adjust the width as needed */
+    height: auto;
+    cursor: pointer; /* Indicates that the image is clickable */
+    transition: transform 0.3s ease;
+}
+
+.clickable-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+

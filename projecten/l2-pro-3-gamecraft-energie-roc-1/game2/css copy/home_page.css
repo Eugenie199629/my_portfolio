@@ -1,0 +1,41 @@
+body{
+
+    background-image: url(/images/background1.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-bottom: 0px;
+}
+.maze_man{
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 40px;
+}
+.name{
+    text-align: center;
+    
+}
+h4{
+    margin-top: 0px;
+}
+img{
+    width: 150px;
+    transition: width 0.5s;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    
+}
+.button{
+    transform: 0,5s ease;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+

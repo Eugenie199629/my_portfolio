@@ -1,0 +1,111 @@
+body{
+    height: 100vh;
+    background-size: 300vh;
+    }
+    .hamburger {
+        display: block;
+    }
+    
+    #nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #201E1E;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 500;
+    }
+    
+    .buttons a {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #nav-links.open {
+        display: flex;
+    }
+    
+    .imgbuttons img.button {
+        width: 60vw;
+        max-width: 150px;
+    }
+    
+    
+    .imgbuttons .text-in-button1,
+    .imgbuttons .text-in-button2,
+    .imgbuttons .text-in-button3,
+    .imgbuttons .text-in-button4,
+    .imgbuttons .text-in-button5 {
+        font-size: 12px;
+    }
+    .hamburger {
+        display: block;
+    }
+    
+    #nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #201E1E;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 500;
+    }
+    
+    .buttons a {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #nav-links.open {
+        display: flex;
+    }
+    
+    .imgbuttons img.button {
+        width: 60vw;
+        max-width: 150px;
+    }
+    
+    
+    .imgbuttons .text-in-button1,
+    .imgbuttons .text-in-button2,
+    .imgbuttons .text-in-button3,
+    .imgbuttons .text-in-button4,
+    .imgbuttons .text-in-button5 {
+        font-size: 19px;
+    }
+    .game{
+        z-index: -1;
+        margin-left: 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       margin-left: 0px;
+       
+
+    }
+    .section > div > a:link{
+        text-decoration: none;
+        color: black;
+        font-family: lettertype;
+        padding: 3%;
+        transform: 0,5s ease;
+    }
+    .game-a{
+        margin-left: 25%;
+        margin-top: 8%;
+        margin-bottom: 20px;
+    }
+    .naam{
+        margin-top: 8%;
+    }
+    

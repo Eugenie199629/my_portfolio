@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maze Game</title>
+  <link rel="stylesheet" href="/css copy/level1.css   ">
+</head>
+
+<body >
+  <div class="timer" id="timer">Time: 3:00</div>
+  <div class="lives" id="lives">Lives: 3</div>
+  <span>Level : 2</span>
+  <div><a href="../index.html"><img class="returnbutton" src="/images/return1.png"  alt="avator"></a></div>
+  <div><p class="menu">back to main menu</p></div>
+  <canvas id="gameCanvas" width="600" height="600"></canvas>
+  
+
+  <div class="controls">
+    <div class="button" id="w">W</div>
+    <div class="button" id="a">A</div>
+    <div class="button" id="s">S</div>
+    <div class="button" id="d">D</div>
+  </div>
+  <div class="modal" id="modal">You got eaten by a ghost!<br><button onclick="resumeGame()">Continue</button></div>
+  <div class="modal" id="gameOverModal">Game Over!<br><button onclick="restartGame()">Restart</button></div>
+  <div class="modal" id="winModal">
+    Congratulations, You Won!<br>
+    <br>  
+    <button onclick="restartGame()">Play Again</button>
+    <button > <a class="alink" href="level3.html">next level</a></button>
+  </div>
+  <script src="/js/level2.js"></script>
+</body>
+
+</html>

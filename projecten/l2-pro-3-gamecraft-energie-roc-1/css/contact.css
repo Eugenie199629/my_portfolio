@@ -1,0 +1,228 @@
+/* Algemene body instellingen */
+@font-face {
+    font-family: 'lettertype';
+    src: url(../fonts/VT323-Regular.ttf);
+}
+
+body{
+    background-image: url(../images/background.png);
+    
+    height: 100vh;
+
+    font-family: lettertype;
+       
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #201E1E;
+    opacity: 0.9;
+    height: 13%;
+    padding: 20px 40px;
+}
+
+.logofoto {
+    width: 130px;
+}
+
+.logonaam {
+    font-family: 'lettertype';
+    color: white;
+    margin-left: 12%;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.logofoto {
+    width: 130px;
+}
+
+.logonaam {
+    font-family: lettertype;
+    color: white;
+    margin-left: 12%;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+
+
+/* Styling voor tekst in de knoppen */
+.imgbuttons .text-in-button1,
+.imgbuttons .text-in-button2,
+.imgbuttons .text-in-button3,
+.imgbuttons .text-in-button4,
+.imgbuttons .text-in-button5 {
+    font-size: 15px;
+    /*lettergrootte */
+}
+
+/* Hamburger menu stijlen */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+}
+.imgbuttons {
+    position: relative;
+}
+
+
+/* Styling voor het hamburger-menu */
+.buttons {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons.open {
+    display: flex;
+    /* Toon het menu als open */
+}
+
+.buttons img.button {
+    margin: 10px 0;
+}
+
+.button {
+    width: 8vw;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text-in-button {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 15px;
+    color: white;
+}
+
+.text-in-button1 {
+    position: absolute;
+    top: 39%;
+    left: 43%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 100px;
+    color: white;
+}
+
+.text-in-button2 {
+    position: absolute;
+    top: 39%;
+    left: 32%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 18px;
+    color: white;
+}
+
+.text-in-button3 {
+    position: absolute;
+    top: 39%;
+    left: 43%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 20px;
+    color: white;
+}
+
+.text-in-button4 {
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 18px;
+    color: white;
+}
+
+.text-in-button5 {
+    position: absolute;
+    top: 39%;
+    left: 39%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 20px;
+    color: white;
+}
+
+.text-in-button-aboutgame {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    cursor: pointer;
+    font-family: lettertype;
+    font-size: 0px;
+    color: white;
+}
+
+
+/* Contact Form Section */
+.contact-form-section {
+    padding: 40px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-form-section p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: grid;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #B82A2A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: lettertype;
+}
+
+.contact-form button:hover {
+    background-color: #B83D3D;
+}
+

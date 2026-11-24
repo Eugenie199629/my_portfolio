@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shooter X</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("images/background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: #1f1f1f;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin: 5px 0;
+        }
+
+        .power-up {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .power-up img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .start-button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .start-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Space Shooter X</h1>
+
+    <div class="card">
+        <h2>How to Play</h2>
+        <p>• Control your spaceship with <strong>W, A, S, D</strong>.</p>
+        <p>• Shoot Bullets by pressing <strong>Space</strong>.</p>
+        <p>• Avoid enemies, spaceships, and asteroids!</p>
+        <p>• Collect power-ups to gain an advantage:</p>
+
+        <div class="power-up">
+            <img src="images/powerup_shield.png" alt="Shield Power-Up">
+            <p><strong>Shield:</strong> Grants an extra life.</p>
+        </div>
+
+        <div class="power-up">
+            <img src="images/2x.png" alt="2X Power-Up">
+            <p><strong>2X Multiplier:</strong> Doubles your score temporarily.</p>
+        </div>
+    </div>
+
+    <button class="start-button">Start Game</button>
+
+    <script>
+        document.querySelector('.start-button').addEventListener('click', function () {
+            window.location.href = 'game.html';
+        });
+    </script>
+
+</body>
+
+</html>

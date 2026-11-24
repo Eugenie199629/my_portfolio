@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about game page</title>
+    <link rel="stylesheet" href="../css/about-game.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="../responsive css/about-game.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logofoto" src="../images/logo.png" alt="Energie ROC Logo">
+            <h1 class="logonaam">Energie ROC</h1>
+        </div>
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger-menu">
+            =<i class="fas fa-bars"></i> 
+        </div>
+
+        <nav class="buttons" id="nav-links">
+            <div class="imgbuttons">
+                <a href="../index.html">
+                    <img class="button" src="../images/button.png" alt="Home Button">
+                    <span class="text-in-button1">Home</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="#">
+                    <img class="button" src="../images/button.png" alt="About Game Button">
+                    <span class="text-in-button2">About Game</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="game.html">
+                    <img class="button" src="../images/button.png" alt="Games Button">
+                    <span class="text-in-button3">Games</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="about-us.html">
+                    <img class="button" src="../images/button.png" alt="About Us Button">
+                    <span class="text-in-button4">About Us</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="contact.html">
+                    <img class="button" src="../images/button.png" alt="Games Button">
+                    <span class="text-in-button5">Contact</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="blokjes">
+        <div class="game1">
+            <h2>GAME 1 </h2>
+            <div><p class="text">
+            is een simpel 2D spel waarin je een ruimteschip bestuurt. Je moet vijanden en asteroïden ontwijken en vernietigen om te blijven leven. Dit zijn de belangrijkste onderdelen:
+            Beweging: Gebruik de pijltjestoetsen om je ruimteschip te besturen en de spatiebalk om te schieten.
+            Levens: Je begint met 3 levens. Bij een botsing met een asteroïde of vijand verlies je er één.
+            Vijanden en Asteroïden: Ontwijk de asteroïden en schiet op vijandige schepen om punten te scoren.
+            Afbeeldingen: Het spel gebruikt plaatjes voor het ruimteschip, de vijanden en de asteroïden.
+            Score: Verdien punten door vijanden te verslaan. Als je al je levens kwijt bent, is het spel afgelopen.
+            Het doel is simpel: blijf zo lang mogelijk leven en behaal een hoge score door vijanden uit te schakelen en obstakels te ontwijken.
+
+            </p></div>
+        </div>
+        <div><img class="ghast" src="../images/Ghast.webp" alt="avator"></div>
+        <div class="game2">
+            <h2>GAME 2 </h2>
+            <div><p class="text">
+            is een doolhofspel waarin je een speler bestuurt die een doolhof moet doorkruisen. Het doel is om de groene rect te vinden zonder te worden geraakt door spookjes. 
+            Dit zijn de belangrijkste onderdelen: 3 leven , timer, muren, spookjes, groene rect, score, afbeeldingen.
+            Beweging: Gebruik de pijltjestoetsen om je speler te besturen.
+            Levens: Je begint met 3 levens. Als je wordt geraakt door een spookje, verlies je er één.
+            Spookjes: Ontwijk de spookjes om te voorkomen dat je levens verliest.
+    
+    
+                </p></div>
+        </div>
+
+
+        
+
+    </div>
+
+    <script>
+        // Toggle Hamburger Menu
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburgerMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

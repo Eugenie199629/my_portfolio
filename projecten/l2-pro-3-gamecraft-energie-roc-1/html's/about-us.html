@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Game - Energie ROC</title>
+    <link rel="stylesheet" href="../css/about-us.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="../responsive css/about-us.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img class="logofoto" src="../images/logo.png" alt="Energie ROC Logo">
+            <h1 class="logonaam">Energie ROC</h1>
+        </div>
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger-menu">
+            =<i class="fas fa-bars"></i> 
+        </div>
+
+        <nav class="buttons" id="nav-links">
+            <div class="imgbuttons">
+                <a href="../index.html">
+                    <img class="button" src="../images/button.png" alt="Home Button">
+                    <span class="text-in-button1">Home</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="aboutgame.html">
+                    <img class="button" src="../images/button.png" alt="About Game Button">
+                    <span class="text-in-button2">About Game</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="game.html">
+                    <img class="button" src="../images/button.png" alt="Games Button">
+                    <span class="text-in-button3">Games</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="about-us.html">
+                    <img class="button" src="../images/button.png" alt="About Us Button">
+                    <span class="text-in-button4">About Us</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="contact.html">
+                    <img class="button" src="../images/button.png" alt="Games Button">
+                    <span class="text-in-button5">Contact</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="content">
+            <div class="content-block">
+                <h2>Creatieve Missies:</h2>
+                <p>Duik in onze virtuele wereld en bouw iets unieks! Gebruik tools zoals Minecraft om nieuwe werelden te
+                    creëren en je creativiteit de vrije loop te laten.</p>
+            </div>
+            <div class="content-block">
+                <h2>Innovatie Challenges:</h2>
+                <p>Kun jij hernieuwbare energie vinden en de slimste oplossingen bedenken? Ontdek hoe je technologie
+                    kunt gebruiken om de wereld te verbeteren!</p>
+            </div>
+            <div class="content-block">
+                <h2>Samenwerking:</h2>
+                <p>Werk samen met andere spelers om uitdagingen te overwinnen, puzzels op te lossen en nieuwe hoogten te
+                    bereiken. Samen staan we sterker!</p>
+            </div>
+        </section>
+
+        <section class="images">
+            <img src="../images/Gaming people.jpg" alt="Gamen" class="image-block">
+            <img src="../images/Gaming dark .jpg" alt="Virtuele Wereld" class="image-block">
+            <img src="../images/Game craft background.jpg" alt="Virtuele Wereld" class="image-block">
+        </section>
+
+        <section class="why-energy">
+            <h2>Waarom Energie ROC?</h2>
+            <p>Bij Energie ROC krijg jij de kans om skills te ontwikkelen die je in de echte wereld kunt gebruiken.
+                Reizen, ontdek en creëer terwijl je een verschil maakt!</p>
+            <div class="icons">
+                <i class="fas fa-cogs icon"></i>
+                <i class="fas fa-lightbulb icon"></i>
+                <i class="fas fa-users icon"></i>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Toggle Hamburger Menu
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburgerMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: "minecraft";
+    src: url("/fonts/VT323-Regular.ttf");
+  }
+  
+
+
+
+
+
+
+
+    body{
+    background-image: url(/images/background1.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: minecraft;
+
+
+}
+    .returnbutton{
+    width: 40px;
+    margin-top: 4%;
+    margin-left: 4%;
+  }
+  .menu{
+    color: white;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-left: 4%;
+  }
+
+    .flexboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+    .eerste{
+    display: flex   ;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 3%;
+}
+
+
+   .box >  a:link, a:visited {
+        width: 200px;
+        height: 50px;
+        background-color: #AA0000;
+        opacity: 80%;
+        color: white;
+        padding: 24px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+    }
+    .box > a:hover, a:active {
+        background-color: red;
+      }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Game - Energie ROC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="responsive css/home.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img class="logofoto" src="images/logo.png" alt="Energie ROC Logo">
+            <h1 class="logonaam">Energie ROC</h1>
+        </div>
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger-menu">
+            =<i class="fas fa-bars"></i> 
+        </div>
+
+        <nav class="buttons" id="nav-links">
+            <div class="imgbuttons">
+                <a href="#">
+                    <img class="button" src="images/button.png" alt="Home Button">
+                    <span class="text-in-button">Home</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="html's/aboutgame.html">
+                    <img class="button" src="images/button.png" alt="About Game Button">
+                    <span class="text-in-button">About Game</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="html's/game.html">
+                    <img class="button" src="images/button.png" alt="Games Button">
+                    <span class="text-in-button">Games</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="html's/about-us.html">
+                    <img class="button" src="images/button.png" alt="About Us Button">
+                    <span class="text-in-button">About Us</span>
+                </a>
+            </div>
+            <div class="imgbuttons">
+                <a href="html's/contact.html">
+                    <img class="button" src="images/button.png" alt="Games Button">
+                    <span class="text-in-button">Contact</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- New Content -->
+    <div class="content">
+        <div class="gif-container">
+            <img class="gif" src="images/uezwmc1ysg831.gif" alt="Left GIF">
+            <div class="text-box">
+                <p>
+                    Welkom bij [!
+                    Duik in een wereld vol actie, avontuur en strategie. Ontdek de nieuwste games, exclusieve deals en het laatste gamenieuws. 
+                    Klaar om te spelen? Start je avontuur hier! 
+                </p>
+            </div>
+            <img class="side-gif" src="images/darz0p6-c135df35-834a-4c05-9629-4da136081691.gif" alt="Right GIF">
+        </div>
+        
+        <a href="html's/game.html">
+            <img class="clickable-image" src="images/button_grey1.png" alt="Clickable Image">
+        </a>
+    </div>
+
+    <script>
+        // Toggle Hamburger Menu
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburgerMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    </script>
+</body>
+
+</html>
